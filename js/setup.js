@@ -84,7 +84,7 @@ overlaySetup.classList.remove('hidden');
 
 // Получаем шаблон
 var template = document.querySelector('#similar-wizard-template')
-.content.querySelector('div');
+    .content.querySelector('div');
 // Подготавливаем элементы для вставки в ДОМ
 var fragment = document.createDocumentFragment();
 var similarWizards = getSimilarWizards(QUANTITY_SIMILAR_WIZARDS);
