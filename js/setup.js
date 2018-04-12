@@ -40,9 +40,9 @@ var choicesList = {
 
   getWizard: function () {
     var wizard = {
-      'name': '',
-      'coatColor': '',
-      'eyesColor': ''
+      name: '',
+      coatColor: '',
+      eyesColor: ''
     };
 
     wizard['name'] = getRandElementArray(this.firstNames) + ' '
@@ -55,8 +55,8 @@ var choicesList = {
 
 // Возвращает случайный элемент массива
 var getRandElementArray = function (array) {
-  var i = Math.floor(Math.random() * array.length);
-  return array[i];
+  var index = Math.floor(Math.random() * array.length);
+  return array[index];
 };
 
 // Возвращает массив из случано сгенерированных вомшебников
