@@ -189,7 +189,7 @@ var convertRgbToHex = function (rgb) {
 
 // Получаем контейнер содержащий настройки персонажа
 var setupPlayerElement = document.querySelector('.setup-player');
-// Находим элемент «глаза» персонажа
+// Находим input элемент «глаз» персонажа
 var eyesColorInputElement = setupPlayerElement.querySelector('#eyes-color');
 // Вешаем слушатель на глаза
 setupPlayerElement.querySelector('.wizard-eyes').addEventListener(
@@ -202,7 +202,7 @@ setupPlayerElement.querySelector('.wizard-eyes').addEventListener(
     }
 );
 
-// Находим элемент fireball
+// Находим input элемент цвета fireball-а
 var fireballColorInput = setupPlayerElement.querySelector('#fireball-color');
 // Вешаем на fireball слушатель
 setupPlayerElement.querySelector('.setup-fireball').addEventListener(
